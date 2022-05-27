@@ -1,9 +1,9 @@
 # A simple program that prints Students Name, Age , Track and Score
 	Student class should have the following attributes
 	--> Name: A string, should be initialized when creating an instance of Student
- 	-->	Age: An integer, should be initialized when creating an instance of Student
-	-->	Tracks: A list of strings, should be initialized when creating an instance of Student. Feel free to pick any values as tracks.
- 	-->	Score: A float, should be initialized when creating an instance of Student.    
+ 	--> Age: An integer, should be initialized when creating an instance of Student
+	--> Tracks: A list of strings, should be initialized when creating an instance of Student. Feel free to pick any values as tracks.
+ 	--> Score: A float, should be initialized when creating an instance of Student.    
 
 	Create the following methods for class “Student”:
 	--> change_name: Change students name, should accept a new name as an argument.
