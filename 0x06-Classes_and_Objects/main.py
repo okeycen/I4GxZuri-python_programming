@@ -3,7 +3,7 @@ class Student:
     def __init__(self, name, age , track, score):
         self.name= str(name)
         self.age=int(age)
-        self.track=track
+        self.track=list(track)
         self.myScore=float(score)
     
     def change_name(obj,new_name):
@@ -16,7 +16,7 @@ class Student:
 
     def add_tracks(obj,added_track):
         obj.add_tracks=added_track
-        return obj.track
+        return added_track
 
     def get_score(obj):
         obj.get_score=obj.myScore
