@@ -6,8 +6,8 @@
 
 def find_anagrams(word, anagram):
     # [assignment] Add your code here
-    new_word= word.strip().lower()
-    new_anagram= anagram.strip().lower()
+    new_word= str(word.strip().lower())
+    new_anagram= str(anagram.strip().lower())
 
     if len(new_word)==len(new_anagram):
         
@@ -22,5 +22,5 @@ def find_anagrams(word, anagram):
     else:
         return False
 
-print(find_anagrams("below", "elbow"))
+print(find_anagrams("belowe", "elbowe"))
 print(find_anagrams("hello", "check"))
