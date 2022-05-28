@@ -14,11 +14,11 @@ def count_words():
     # [assignment] Add your code here
     text=read_file_content("story.txt")
 
-    #removing special character from the text file
+    #removing special characters and numbers from the text file
     data= text.split()
     new_data=""
     for elem in data:
-        result=''.join(char for char in elem if char.isalnum())
+        result=''.join(char for char in elem if char.isalpha())
         new_data=new_data+result+" "
     
     words=new_data.lower().split()
