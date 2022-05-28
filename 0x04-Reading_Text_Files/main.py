@@ -8,7 +8,7 @@
 def read_file_content(filename):
     # [assignment] Add your code here 
     file = open(filename)
-    return file.read()
+    return str(file.read())
 
 def count_words():
     # [assignment] Add your code here
